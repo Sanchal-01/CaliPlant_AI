@@ -1,0 +1,6 @@
+ai_env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/train/
+data/validation/
