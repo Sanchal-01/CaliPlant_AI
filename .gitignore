@@ -4,3 +4,5 @@ __pycache__/
 .ipynb_checkpoints/
 03_data/train/
 03_data/validation/
+03_Data/test_photos
+04_Models
