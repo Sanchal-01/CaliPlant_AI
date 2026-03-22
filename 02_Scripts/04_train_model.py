@@ -51,11 +51,10 @@ model = models.Sequential([
 
 
 
-
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 # 3. TRAINING
-print("\n🚀 Training shuru ho rahi hai...")
+print("\n Training shuru ho rahi hai...")
 history = model.fit(
     train_generator,
     epochs=10,
@@ -63,9 +62,9 @@ history = model.fit(
 )
 
 # 4. SAVE MODEL
-# Logic: Creating a folder to save our trained 'Brain' (Model).
+# Creating a folder to save our trained 'Brain' (Model).
 if not os.path.exists('04_Models'):
     os.makedirs('04_Models')
 
 model.save('04_Models/plant_model_v1.h5')
-print("\n✅ Model save ho gaya: 04_Models/plant_model_v1.h5")
+print("\n Model save ho gaya: 04_Models/plant_model_v1.h5")
