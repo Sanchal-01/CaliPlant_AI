@@ -1,0 +1,461 @@
+[
+  {
+    "id": 1,
+    "common_name": "California Poppy",
+    "scientific_name": "Eschscholzia californica",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "Designated as the state flower in 1903, its brilliant orange petals close at night or in cloudy weather to protect its pollen.",
+    "toxicity_alert": "Non-toxic to humans."
+  },
+  {
+    "id": 2,
+    "common_name": "Poison Hemlock",
+    "scientific_name": "Conium maculatum",
+    "native_status": "Invasive",
+    "water_needs": "Low to Med",
+    "fun_fact": "Infamous for being used to execute the philosopher Socrates, this plant is easily identified by the distinct purple splotches on its smooth, hollow stems.",
+    "toxicity_alert": "Extremely Toxic: Fatal if any part is ingested."
+  },
+  {
+    "id": 3,
+    "common_name": "Matilija Poppy",
+    "scientific_name": "Romneya coulteri",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "Known as the \"Fried Egg Plant,\" it produces the largest flowers of any California native, with petals that look like crinkled white crepe paper.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 4,
+    "common_name": "Stinknet",
+    "scientific_name": "Oncosiphon piluliferum",
+    "native_status": "Invasive",
+    "water_needs": "Low",
+    "fun_fact": "An aggressive invader that smells like burnt rubber; its dried flower globes are highly flammable and pose a major fire risk during California's dry season.",
+    "toxicity_alert": "Can cause severe skin rashes and respiratory issues."
+  },
+  {
+    "id": 5,
+    "common_name": "Sticky Monkey-flower",
+    "scientific_name": "Diplacus aurantiacus",
+    "native_status": "Native",
+    "water_needs": "Low",
+    "fun_fact": "Its leaves have a sticky resin that prevents insects from eating them, and indigenous groups historically used the roots to treat sores and wounds.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 6,
+    "common_name": "Prickly Pear",
+    "scientific_name": "Opuntia ficus-indica",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "A staple in Mexican cuisine, both its flat green pads (Nopales) and its colorful, sweet fruits (Tuna) are edible and highly nutritious.",
+    "toxicity_alert": "Watch out for glochids (microscopic irritating spines)."
+  },
+  {
+    "id": 7,
+    "common_name": "Mustard Plant",
+    "scientific_name": "Brassica nigra",
+    "native_status": "Invasive",
+    "water_needs": "Low",
+    "fun_fact": "While it creates beautiful yellow landscapes in spring, it releases chemicals into the soil that prevent native California plants from growing nearby.",
+    "toxicity_alert": "Generally safe, but highly invasive."
+  },
+  {
+    "id": 8,
+    "common_name": "Western Poison Oak",
+    "scientific_name": "Toxicodendron diversilobum",
+    "native_status": "Native",
+    "water_needs": "Low",
+    "fun_fact": "A master of disguise, it can grow as a shrub, a vine, or a groundcover; the oil (urushiol) stays active on clothing and gear for years.",
+    "toxicity_alert": "High: Causes severe itchy rashes and blisters."
+  },
+  {
+    "id": 9,
+    "common_name": "Coast Live Oak",
+    "scientific_name": "Quercus agrifolia",
+    "native_status": "Native",
+    "water_needs": "Low",
+    "fun_fact": "These majestic trees can live for centuries and are keystone species, providing essential habitat for over 100 species of birds and mammals.",
+    "toxicity_alert": "Acorns are toxic to humans unless properly processed."
+  },
+  {
+    "id": 10,
+    "common_name": "Manzanita",
+    "scientific_name": "Arctostaphylos",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "Recognizable by its smooth, mahogany-red bark, its name is Spanish for \"little apple,\" referring to its small, berry-like fruits.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 11,
+    "common_name": "Toyon",
+    "scientific_name": "Heteromeles arbutifolia",
+    "native_status": "Native",
+    "water_needs": "Low",
+    "fun_fact": "Often called \"California Holly,\" it is widely believed that the abundance of Toyon in the hills led to the naming of the town Hollywood.",
+    "toxicity_alert": "Berries contain cyanide precursors; toxic to pets."
+  },
+  {
+    "id": 12,
+    "common_name": "Chalk Dudleya",
+    "scientific_name": "Dudleya pulverulenta",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "The leaves are covered in a white waxy powder that acts as a natural sunscreen and reflects water to help the plant survive harsh coastal sun.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 13,
+    "common_name": "Ice Plant",
+    "scientific_name": "Carpobrotus edulis",
+    "native_status": "Invasive",
+    "water_needs": "Low",
+    "fun_fact": "Originally introduced to stabilize soil along railroad tracks, it has become a threat to coastal dunes by crowding out rare native species.",
+    "toxicity_alert": "Non-toxic, but environmentally harmful."
+  },
+  {
+    "id": 14,
+    "common_name": "Blue Gum Eucalyptus",
+    "scientific_name": "Eucalyptus globulus",
+    "native_status": "Invasive",
+    "water_needs": "Low",
+    "fun_fact": "These trees shed their bark in long strips, creating a \"messy\" appearance and a thick layer of oily litter that is highly combustible during fires.",
+    "toxicity_alert": "Leaves and bark are toxic to pets and humans."
+  },
+  {
+    "id": 15,
+    "common_name": "Tree Tobacco",
+    "scientific_name": "Nicotiana glauca",
+    "native_status": "Invasive",
+    "water_needs": "Low",
+    "fun_fact": "While its bright yellow tubular flowers are a favorite for hummingbirds, the entire plant is so toxic that most herbivores refuse to touch it.",
+    "toxicity_alert": "Toxic: Ingestion can be fatal to humans and animals."
+  },
+  {
+    "id": 16,
+    "common_name": "Our Lord's Candle",
+    "scientific_name": "Hesperoyucca whipplei",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "It spends years as a spikey rosette before sending up a massive 15-foot flower stalk; once it finishes blooming, the entire plant dies.",
+    "toxicity_alert": "Sharp leaf tips can cause physical injury."
+  },
+  {
+    "id": 17,
+    "common_name": "Common Fennel",
+    "scientific_name": "Foeniculum vulgare",
+    "native_status": "Invasive",
+    "water_needs": "Low",
+    "fun_fact": "Often found along roadsides, it smells strongly of licorice when crushed and was historically used for both culinary and medicinal purposes.",
+    "toxicity_alert": "Safe, but easily confused with toxic Hemlock."
+  },
+  {
+    "id": 18,
+    "common_name": "California Buckwheat",
+    "scientific_name": "Eriogonum fasciculatum",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "A vital nectar source for butterflies, its flowers transition from creamy white in spring to a striking rusty-red color as they dry in late summer.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 19,
+    "common_name": "Black Sage",
+    "scientific_name": "Salvia mellifera",
+    "native_status": "Native",
+    "water_needs": "Low",
+    "fun_fact": "This highly aromatic shrub is a favorite for honeybees; the honey produced from its nectar is light-colored, peppery, and highly prized.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 20,
+    "common_name": "Ceanothus (CA Lilac)",
+    "scientific_name": "Ceanothus spp.",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "Known for its intense blue blooms, its flowers contain saponins and can be rubbed with water to create a natural, fragrant soap lather.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 21,
+    "common_name": "Mariposa Lily",
+    "scientific_name": "Calochortus splendens",
+    "native_status": "Native",
+    "water_needs": "Low",
+    "fun_fact": "Taking its name from the Spanish word for \"butterfly,\" the intricate patterns on its petals mimic the delicate and colorful wings of an insect.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 22,
+    "common_name": "Western Sycamore",
+    "scientific_name": "Platanus racemosa",
+    "native_status": "Native",
+    "water_needs": "Moderate",
+    "fun_fact": "These trees are easily spotted near creeks by their mottled bark that peels off in patches, creating a natural camouflage look on the trunk.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 23,
+    "common_name": "Joshua Tree",
+    "scientific_name": "Yucca brevifolia",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "Named by Mormon settlers who thought its reaching branches resembled the biblical Joshua pointing toward the promised land with upraised arms.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 24,
+    "common_name": "Palo Verde",
+    "scientific_name": "Parkinsonia florida",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "Its name means \"green stick\" in Spanish, referring to its green trunk and branches which can perform photosynthesis even when the leaves fall off.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 25,
+    "common_name": "Castor Bean",
+    "scientific_name": "Ricinus communis",
+    "native_status": "Invasive",
+    "water_needs": "Low",
+    "fun_fact": "Though it is the source of castor oil, the unprocessed seeds contain one of the most deadly natural poisons on Earth.",
+    "toxicity_alert": "Highly Toxic: Seeds contain Ricin; fatal if chewed."
+  },
+  {
+    "id": 26,
+    "common_name": "Wild Radish",
+    "scientific_name": "Raphanus sativus",
+    "native_status": "Invasive",
+    "water_needs": "Low",
+    "fun_fact": "A common sight in empty lots, it displays a wide variety of flower colors—white, pink, and purple—often all appearing on the same plant.",
+    "toxicity_alert": "Edible roots, but very pungent and bitter."
+  },
+  {
+    "id": 27,
+    "common_name": "Blue Elderberry",
+    "scientific_name": "Sambucus cerulea",
+    "native_status": "Native",
+    "water_needs": "Moderate",
+    "fun_fact": "Historically used to make flutes and whistles from its hollow stems, the berries are also used today for making immune-boosting syrups.",
+    "toxicity_alert": "Raw berries, leaves, and stems are toxic."
+  },
+  {
+    "id": 28,
+    "common_name": "California Sagebrush",
+    "scientific_name": "Artemisia californica",
+    "native_status": "Native",
+    "water_needs": "Low",
+    "fun_fact": "Nicknamed \"Cowboy Cologne\" because early travelers would rub the fragrant leaves on their clothes to mask odors after long days on the trail.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 29,
+    "common_name": "Bladderpod",
+    "scientific_name": "Peritoma arborea",
+    "native_status": "Native",
+    "water_needs": "Very Low",
+    "fun_fact": "Its unique, inflated seed pods act like balloons that pop when squeezed; it is one of the few plants that can bloom year-round in California.",
+    "toxicity_alert": "Non-toxic, but has a strong, unpleasant smell."
+  },
+  {
+    "id": 30,
+    "common_name": "CA Bush Sunflower",
+    "scientific_name": "Encelia californica",
+    "native_status": "Native",
+    "water_needs": "Low",
+    "fun_fact": "A fast-growing shrub common along the coast, its bright yellow flowers feature a dark chocolate-brown center that attracts a variety of native bees.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 31,
+    "common_name": "Meyer Lemon",
+    "scientific_name": "Citrus meyeri",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "A hybrid between a lemon and a mandarin orange, it is much sweeter and thinner-skinned than the standard lemons found in grocery stores.",
+    "toxicity_alert": "Safe for humans; oils in skin are toxic to pets."
+  },
+  {
+    "id": 32,
+    "common_name": "Bougainvillea",
+    "scientific_name": "B. spectabilis",
+    "native_status": "Non-Native",
+    "water_needs": "Low",
+    "fun_fact": "The vibrant \"petals\" are actually modified leaves called bracts; the true flowers are the tiny, inconspicuous white trumpets at the center.",
+    "toxicity_alert": "Thorns are sharp; sap can cause skin irritation."
+  },
+  {
+    "id": 33,
+    "common_name": "Jacaranda",
+    "scientific_name": "Jacaranda mimosifolia",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "Famous for their \"Purple Rain\" effect, these trees turn entire city streets purple when they drop their trumpet-shaped blossoms in late spring.",
+    "toxicity_alert": "Non-toxic."
+  },
+  {
+    "id": 34,
+    "common_name": "Bird of Paradise",
+    "scientific_name": "Strelitzia reginae",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "So iconic to the Southern California aesthetic that it was officially named the \"City Flower\" of Los Angeles in 1952.",
+    "toxicity_alert": "Mildly toxic to cats and dogs."
+  },
+  {
+    "id": 35,
+    "common_name": "Rosemary",
+    "scientific_name": "Salvia rosmarinus",
+    "native_status": "Non-Native",
+    "water_needs": "Low",
+    "fun_fact": "An incredibly hardy Mediterranean herb that thrives in California’s climate; it is often used as a fragrant, drought-tolerant privacy hedge.",
+    "toxicity_alert": "Edible and safe."
+  },
+  {
+    "id": 36,
+    "common_name": "European Olive",
+    "scientific_name": "Olea europaea",
+    "native_status": "Non-Native",
+    "water_needs": "Low",
+    "fun_fact": "A symbol of peace and longevity, some of these trees can live for over 2,000 years and produce fruit even in extremely dry conditions.",
+    "toxicity_alert": "Fruit safe after curing; pollen is a common allergen."
+  },
+  {
+    "id": 37,
+    "common_name": "French Lavender",
+    "scientific_name": "Lavandula dentata",
+    "native_status": "Non-Native",
+    "water_needs": "Low",
+    "fun_fact": "Highly valued for its essential oils, the scent of lavender has been scientifically shown to lower heart rate and reduce stress levels.",
+    "toxicity_alert": "Toxic to cats and dogs if ingested."
+  },
+  {
+    "id": 38,
+    "common_name": "Snake Plant",
+    "scientific_name": "Dracaena trifasciata",
+    "native_status": "Non-Native",
+    "water_needs": "Very Low",
+    "fun_fact": "Unique among indoor plants, it converts CO2 into oxygen at night, making it an ideal plant for improving air quality in bedrooms.",
+    "toxicity_alert": "Toxic to pets if chewed."
+  },
+  {
+    "id": 39,
+    "common_name": "Spider Plant",
+    "scientific_name": "Chlorophytum comosum",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "One of the most efficient indoor plants for removing household toxins like formaldehyde and xylene from the surrounding air.",
+    "toxicity_alert": "Non-toxic and safe for pets."
+  },
+  {
+    "id": 40,
+    "common_name": "Jade Plant",
+    "scientific_name": "Crassula ovata",
+    "native_status": "Non-Native",
+    "water_needs": "Very Low",
+    "fun_fact": "Often called the \"Money Tree,\" it is a popular gift for new business owners as it is believed to bring good luck and financial prosperity.",
+    "toxicity_alert": "Toxic to pets."
+  },
+  {
+    "id": 41,
+    "common_name": "Aloe Vera",
+    "scientific_name": "Aloe barbadensis miller",
+    "native_status": "Non-Native",
+    "water_needs": "Low",
+    "fun_fact": "The clear gel inside the leaves contains over 75 active compounds and has been used for millennia to treat burns and skin irritations.",
+    "toxicity_alert": "Safe for skin; toxic to pets if eaten."
+  },
+  {
+    "id": 42,
+    "common_name": "Swiss Cheese Plant",
+    "scientific_name": "Monstera deliciosa",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "The iconic holes in its leaves are an evolutionary trait that allows sunlight and rain to pass through to the lower leaves in dense jungles.",
+    "toxicity_alert": "Toxic to cats and dogs."
+  },
+  {
+    "id": 43,
+    "common_name": "ZZ Plant",
+    "scientific_name": "Zamioculcas zamiifolia",
+    "native_status": "Non-Native",
+    "water_needs": "Very Low",
+    "fun_fact": "Famous for being \"indestructible,\" it can survive in windowless offices and low-light corners where almost no other plant could live.",
+    "toxicity_alert": "Toxic if ingested."
+  },
+  {
+    "id": 44,
+    "common_name": "Golden Pothos",
+    "scientific_name": "Epipremnum aureum",
+    "native_status": "Non-Native",
+    "water_needs": "Low to Med",
+    "fun_fact": "Nicknamed \"Devil's Ivy\" because it remains green even when kept in near-total darkness and is extremely difficult to kill.",
+    "toxicity_alert": "Toxic to pets."
+  },
+  {
+    "id": 45,
+    "common_name": "Fiddle Leaf Fig",
+    "scientific_name": "Ficus lyrata",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "A favorite for high-end interior design, its large, violin-shaped leaves can grow up to 12 inches wide, making it a dramatic focal point.",
+    "toxicity_alert": "Sap can irritate skin; toxic to pets."
+  },
+  {
+    "id": 46,
+    "common_name": "Indoor Rose",
+    "scientific_name": "Rosa chinensis",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "Miniature roses were bred to stay small and are often kept on sunny windowsills; they represent a \"true\" rose experience in a compact, indoor-friendly size.",
+    "toxicity_alert": "Non-toxic, but watch out for tiny thorns."
+  },
+  {
+    "id": 47,
+    "common_name": "Peace Lily",
+    "scientific_name": "Spathiphyllum spp.",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "It is one of the few indoor plants that will bloom even in low light; it’s also known as the \"closet plant\" because of its incredible resilience in dark corners.",
+    "toxicity_alert": "Toxic to pets; contains calcium oxalate crystals."
+  },
+  {
+    "id": 48,
+    "common_name": "Rubber Plant",
+    "scientific_name": "Ficus elastica",
+    "native_status": "Non-Native",
+    "water_needs": "Low to Med",
+    "fun_fact": "In the wild, these can grow into massive 100-foot trees, but indoors they are loved for their thick, leathery leaves that look like they are made of polished rubber.",
+    "toxicity_alert": "Toxic: The milky sap can irritate skin and eyes."
+  },
+  {
+    "id": 49,
+    "common_name": "Flamingo Flower",
+    "scientific_name": "Anthurium",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "What looks like a waxy red flower is actually a \"spathe\" (a modified leaf); these \"blooms\" are among the longest-lasting on Earth, often staying bright for months.",
+    "toxicity_alert": "Toxic if ingested; causes mouth and throat irritation."
+  },
+  {
+    "id": 50,
+    "common_name": "Heartleaf Philodendron",
+    "scientific_name": "Philodendron hederaceum",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "Often confused with Pothos, this plant is a rapid climber; its name literally translates from Greek as \"love tree\" because of its heart-shaped leaves.",
+    "toxicity_alert": "Toxic to cats and dogs if chewed."
+  },
+  {
+    "id": 51,
+    "common_name": "English Ivy",
+    "scientific_name": "Hedera helix",
+    "native_status": "Non-Native",
+    "water_needs": "Moderate",
+    "fun_fact": "While it looks classic and elegant hanging in a pot, NASA's Clean Air Study found it to be one of the best plants for filtering out airborne mold particles.",
+    "toxicity_alert": "Toxic to pets and can cause skin reactions in humans."
+  }
+]
