@@ -8,7 +8,7 @@ model = tf.keras.models.load_model('04_Models/plant_model_v2_pro.keras')
 class_names = ['California Poppy', 'California Sagebrush', 'Coast Live Oak', 'Joshua Tree', 'Poison Oak']
 
 def predict_folder(folder_path):
-    print(f"\n🔍 Scanning folder: {folder_path}")
+    print(f"\n Scanning folder: {folder_path}")
     print("="*40)
     
     # Folder ki har file check karo
@@ -26,8 +26,8 @@ def predict_folder(folder_path):
             result_index = np.argmax(preds)
             confidence = np.max(preds) * 100
             
-            print(f"📷 Image: {img_name}")
-            print(f"🌿 The Plantis likely to be: {class_names[result_index]} ({confidence:.2f}%)")
+            print(f" Image: {img_name}")
+            print(f" The Plantis likely to be: {class_names[result_index]} ({confidence:.2f}%)")
             print("-" * 20)
 
 # --- CHALAO ---
