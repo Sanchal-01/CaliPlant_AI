@@ -1,36 +1,39 @@
 import os
-from PIL import Image # Image verify karne ke liye
+import PIL
+from PIL import Image
+import warnings
 
-def verify_and_clean_data(base_path):
-    print("🔍 Data ki safai shuru ho rahi hai...\n")
+# This is Path to my training data:
+DATA_DIR = "03_Data/train"
+
+def verify_images(folder_path):
+    print(f" Starting verification in: {folder_path}")
+    print("="*50)
     
-    # Sabhi folders (Poppy, Oak, etc.) ko ek ek karke check karenge
-    for folder in os.listdir(base_path):
-        folder_path = os.path.join(base_path, folder)
-        
-        if os.path.isdir(folder_path):
-            files = os.listdir(folder_path)
-            print(f"📁 Checking {folder}... ({len(files)} files)")
-            
-            for file in files:
-                file_path = os.path.join(folder_path, file)
+    deleted_count = 0
+    total_scanned = 0
+
+    # Loop through each plant folder
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.lower().endswith(('.png', '.jpg', '.jpeg')):
+                total_scanned += 1
+                file_path = os.path.join(root, file)
+                
                 try:
-                    # 1. Image ko khol kar check karo
+                    # Try to open and verify the image
                     img = Image.open(file_path)
-                    img.verify() # Ye check karta hai ki file corrupt toh nahi
-                except (IOError, SyntaxError) as e:
-                    # 2. Agar kharab hai toh delete karo
-                    print(f"  ❌ Corrupt file mili aur delete ki gayi: {file}")
+                    img.verify() # Verify that this is an actual image
+                except (IOError, SyntaxError, PIL.UnidentifiedImageError) as e:
+                    print(f" Corrupt file found and deleted: {file_path}")
                     os.remove(file_path)
-            
-            # Final count update
-            print(f"  ✅ {folder} ab bilkul saaf hai. Total: {len(os.listdir(folder_path))} images.\n")
-
-# --- EXECUTION ---
-if __name__ == "__main__":
-    train_dir = "03_Data/train"
+                    deleted_count += 1
     
-    if os.path.exists(train_dir):
-        verify_and_clean_data(train_dir)
-    else:
-        print("⚠️ Bhai, 03_Data/train folder nahi mila! Path check kar.")
+    print("="*50)
+    print(f" Verification Complete!")
+    print(f"Total Scanned: {total_scanned}")
+    print(f"Total Deleted: {deleted_count}")
+
+if __name__ == "__main__":
+    # First, verify training data
+    verify_images(DATA_DIR)
