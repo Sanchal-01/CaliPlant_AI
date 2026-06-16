@@ -7,3 +7,5 @@ __pycache__/
 03_Data/test_photos
 04_Models
 .vscode
+01_download_images.py
+01_download_images2.py
