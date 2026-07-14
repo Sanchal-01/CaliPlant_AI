@@ -1,6 +1,6 @@
 import os
 import tensorflow as tf
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
 
 # 1. LOAD THE V3 BRAIN 
 V3_MODEL_PATH = "04_Models/caliplant_v3_51classes.keras"
@@ -65,4 +65,4 @@ model.fit(
 
 # 6. SAVE AS VERSION 4
 model.save("04_Models/caliplant_v4_finetuned.keras")
-print("\n SUCCESS: Version 4 (Expert Level) saved successfully.")
+print("\n SUCCESS: Version 4 saved successfully.")
