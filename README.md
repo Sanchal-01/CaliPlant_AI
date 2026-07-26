@@ -33,32 +33,34 @@ A production-grade deep learning system for identifying 51 native and common Cal
 
 <br>
 <p align="center">
-  <img src="05_Assets\Predictions\cali pop.jpg" width="50%">
-  <img src="05_Assets\Predictions\Mustard plant.jpg" width= "30%">
+  <img src="05_Assets\Predictions\cali pop.jpg" width="55%">
+  <img src="05_Assets\Predictions\Mustard plant.jpg" width= "33%">
 </p>
+
 <p align="center">
   <img src="05_Assets\Predictions\close-up-aloe-vera-plant_23-2151932231.jpg" width="40%">
   <img src="05_Assets\Predictions\Matilija Poppy.jpg" width="45%">
 </p>
-Botanical identification from images is a deceptively difficult fine-grained visual classification problem. Unlike broad object categories, plant species within the same genus or growth habit often differ only in subtle leaf venation, margin serration, or floral micro-structure, features that generic image classifiers frequently fail to separate.
-
 <br>
 <p align="center">
-  <img src="05_Assets\Predictions\bladderpod.jpg" width="46%">
-  <img src="05_Assets\Predictions\ima121ges.jpg" width="45%">
+    <img src="05_Assets\Predictions\bladderpod.jpg" width="46%">
+    <img src="05_Assets\Predictions\ima121ges.jpg" width="45%">
 </p>
 <p align="center">
-  <img src="05_Assets\Predictions\Western_P_Oak.jpg" width="45%">
-  <img src="05_Assets\Predictions\prickly pear.jpg" width="45%">
+    <img src="05_Assets\Predictions\Western_P_Oak.jpg" width="45%">
+    <img src="05_Assets\Predictions\prickly pear.jpg" width="45%">
 </p>
-
+<br>
+Botanical identification from images is a deceptively difficult fine-grained visual classification problem. Unlike broad object categories, plant species within the same genus or growth habit often differ only in subtle leaf venation, margin serration, or floral micro-structure, features that generic image classifiers frequently fail to separate.
+ 
 CaliPlant AI addresses this through an iterative, five-phase model development process, progressing from a shallow custom CNN trained from scratch to a deeply fine-tuned MobileNetV2 network with in-graph preprocessing and selective backbone unfreezing. The final production model, V5, classifies 51 distinct California plant species and achieves a validation accuracy of 86.09 percent, with the complete inference pipeline, including pixel scaling, wrapped directly inside a single Keras model graph to eliminate deployment-time normalization mismatches.
-
+ 
 The system is served through a Streamlit application that accepts an uploaded image, runs inference through a cached model instance, and renders the top prediction together with its scientific name, native status, water needs, an educational fact, a toxicity notice, and the top three ranked predictions.
-
+ 
 ---
 
-## 2. Problem Statement
+
+## **2. Problem Statement**
 
 Fine-grained plant classification carries three compounding difficulties that shaped every architectural decision in this project:
 
@@ -70,7 +72,7 @@ These constraints ruled out a simple from-scratch CNN early on and pushed the pr
 
 ---
 
-## 3. Model Evolution Journey (V1 to V5)
+## **3. Model Evolution Journey (V1 to V5)**
 
 The full engineering journal behind this section lives in `00_Documentation/00_Project_Documentation.ipynb`. Every version below was a direct, targeted response to a specific failure diagnosed in the version before it.
 
